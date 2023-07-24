@@ -51,12 +51,13 @@ document.addEventListener("DOMContentLoaded", function(){
     }) 
     
     
-    
-    function handleNumber(num){
-        if(currentValue.length <=5){
-        currentValue = num;
+   //dore aho nakosoye nongeyeho iyi increment  += kugira ngo izajye yongeranya imibare aho kuyisimbuza
+    function handleNumber(num) {
+        if (currentValue.length <= 5) {
+            currentValue += num; // Append the clicked number to the existing value
         }
     }
+    
 })
 
 
